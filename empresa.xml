@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleado>
+        <nombre>Alejandro</nombre>
+        <apellido>Ortiz</apellido>
+        <telefono>653392017</telefono>
+        <email>jandruco7@gmail.com</email>
+        <direccion>
+            <ciudad>Santander</ciudad>
+            <provincia>Cantabria</provincia>
+            <cp>39009</cp>
+        </direccion>
+    </empleado>
+    <empleado>
+        <nombre>Roberto</nombre>
+        <apellido>Vázquez</apellido>
+        <telefono>685423695</telefono>
+        <email>pepeowen@hotmail.com</email>
+        <direccion>
+            <ciudad>Santander</ciudad>
+            <provincia>Cantabria</provincia>
+            <cp>39011</cp>
+        </direccion>
+    </empleado>
+</empresa>
