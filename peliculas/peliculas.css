@@ -1,0 +1,101 @@
+catalogo:before {
+  display: block;
+  width: 8em;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Peliculas:";
+  margin: -.75em 0px .25em -.25em;
+  padding: .1em .25em;
+  background-color: #cdf;
+  }
+
+catalogo {
+  display: block;
+  margin: 2em 1em;
+  border: 4px solid #cdf;
+  padding: 0px 1em;
+  background-color: white;
+  }
+
+pelicula {
+  display: block;
+  margin: 2em 1em;
+  border: 4px solid #cdf;
+  padding: 0px 1em;
+  background-color: white;
+  }
+
+titulo{
+  display: block;
+  width: 16em;
+  font-weight: bold;
+  font-size: 200%;
+  background-color: #cdf;
+  margin: -.75em 0px .25em -.25em;
+  padding: .1em .25em;
+}
+
+director {
+  display: block;
+  }
+
+director:before {
+  content: "Dirigida por: ";
+  font-weight: bold;
+  }
+
+reparto:before {
+  display: block;
+  width: 8em;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Reparto: ";
+  margin: -.75em 0px .25em -.25em;
+  padding: .1em .25em;
+  background-color: #cdf;
+  } 
+
+reparto {
+  display: block;
+  margin: 2em 1em;  
+  border: 4px solid #cdf;
+  padding: 0px 1em;
+  background-color: white;
+  }
+
+director:before {
+  content: "Dirigida por: ";
+  }
+
+actor:before{
+  content: "- ";
+}
+
+actor {
+  display: block;
+  }
+
+fecha:before {
+  content: "Fecha de estreno: ";
+    font-weight: bold;
+  }
+
+fecha {
+  display: block;
+  }
+
+mes:before{
+   content: "del ";
+}
+
+anno:before{
+   content: "de ";
+}
+duracion:before {
+  content: "Duración: ";
+    font-weight: bold;
+  }
+
+duracion {
+  display: block;
+  }

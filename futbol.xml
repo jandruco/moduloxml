@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+    <equipo>
+        <nombre>Real Racing Club</nombre>
+        <ciudad>Santander</ciudad>
+        <entrenador/>
+        <plantilla>
+            <jugador posicion="Portero">
+                <nombre>Luca Zidane</nombre>
+                <nacionalidad>Francés</nacionalidad>
+            </jugador>
+            <jugador posicion="Delantero">
+                <nombre>Karim Yoda</nombre>
+                <nacionalidad>Francés</nacionalidad>
+            </jugador>
+        </plantilla>          
+    </equipo>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador/>
+        <plantilla>
+            <jugador posicion="Defensa">
+                <nombre>Eder Militao</nombre>
+                <nacionalidad>Brasileño</nacionalidad>
+            </jugador>
+            <jugador posicion="Delantero">
+                <nombre>Eden Hazard</nombre>
+                <nacionalidad>Belga</nacionalidad>
+            </jugador>
+        </plantilla>
+    </equipo>
+</equipos>

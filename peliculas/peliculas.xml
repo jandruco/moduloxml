@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="peliculas.css"?>
+<catalogo>
+    <pelicula genero="Acción - Aventuta - Ciencia Ficción">
+        <titulo>Capitana Marvel</titulo>
+        <director>Anne Boden</director>
+        <reparto>
+            <actor>Brie Larson</actor>
+            <actor>Ben Mendelsohn</actor>
+            <actor>Djimon Hounsou</actor>
+            <actor>Jude Law</actor>
+            <actor>Samuel L. Jackson</actor>
+            <actor>Jude Law</actor>
+        </reparto>
+        <fecha>
+            <dia>8</dia>
+            <mes>3</mes>
+            <anno>2019</anno>
+        </fecha>
+        <duracion>130 minutos</duracion>
+    </pelicula>
+    <pelicula genero="Acción - Crimen - Drama">
+        <titulo>Fast &amp; Furious - Hobbs &amp; Shaw</titulo>
+        <director>David Leitch</director>
+        <reparto>
+            <actor>Dwayne Johnson</actor>
+            <actor>Eddie Marsan</actor>
+            <actor>Eiza González</actor>
+            <actor>Idris Elba</actor>
+            <actor>Jason Statham</actor>
+            <actor>Vanessa Kirby</actor>
+        </reparto>
+        <fecha>
+            <dia>1</dia>
+            <mes>8</mes>
+            <anno>2019</anno>
+        </fecha>
+        <duracion>123 minutos</duracion>
+    </pelicula>
+    <pelicula genero="Aventura - Animación - Familia - Drama">
+        <titulo>El Rey León</titulo>
+        <director>Jon Favreau</director>
+        <reparto>
+            <actor>Alfre Woodard</actor>
+            <actor>Beyoncé Knowles</actor>
+            <actor>Chiwetel Ejiofor</actor>
+            <actor>Donald Glover</actor>
+            <actor>James Earl Jones</actor>
+            <actor>John Oliver</actor>
+        </reparto>
+        <fecha>
+            <dia>18</dia>
+            <mes>7</mes>
+            <anno>2019</anno>
+        </fecha>
+        <duracion>120 minutos</duracion>
+    </pelicula>
+</catalogo>
