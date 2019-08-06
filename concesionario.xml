@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+    <coche matricula="1234 BCD">
+        <marca>Peugeot</marca>
+        <modelo color="Blanco">307 SW</modelo>
+        <kilometraje>224.000 Km</kilometraje>
+        <combustible>Diésel</combustible>
+        <anno>2002</anno>
+        <puertas>5</puertas>
+        <cv>110 CV</cv>
+        <cambio>Manual</cambio>
+        <precio>2490 €</precio>
+        <vendedor>
+            <nombre>Juan</nombre>
+            <apellidos>Sainz Pelayo</apellidos>
+            <direccion>
+                <via tipo="Calle">Isabel II</via>
+                <numero>23</numero>
+                <piso>4</piso>
+                <letra>A</letra>
+                <ciudad>Santander</ciudad>
+                <provincia>Cantabria</provincia>
+            </direccion>
+            <telefono>687423965</telefono>
+        </vendedor>
+    </coche>
+    <coche matricula="4586 FBL">
+        <marca>Porsche</marca>
+        <modelo color="Negro">Panamera</modelo>
+        <kilometraje>79.000 Km</kilometraje>
+        <combustible>Diésel</combustible>
+        
+        <anno>2015</anno>
+        <puertas>3</puertas>
+        <cv>300 CV</cv>
+        <cambio>Automático</cambio>
+        <precio>57.990 €</precio>
+        <vendedor>
+            <nombre>Luis</nombre>
+            <apellidos>Rivas Escalante</apellidos>
+            <direccion>
+                <via tipo="Calle">Gran Vía</via>
+                <numero>76</numero>
+                <piso>8</piso>
+                <letra>D</letra>
+                <ciudad>Madrid</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <telefono>612489635</telefono>
+        </vendedor>
+    </coche>
+    <coche matricula="6384 CJT">
+        <marca>Nissan</marca>
+        <modelo color="Azul">Qashqai</modelo>
+        <kilometraje>25.000 Km</kilometraje>
+        <combustible>Gasolina</combustible>
+        <anno>2018</anno>
+        <puertas>5</puertas>
+        <cv>140 CV</cv>
+        <cambio> Manual</cambio>
+        <precio>21.500 €</precio>
+        <vendedor>
+            <nombre>Alejandro</nombre>
+            <apellidos>Pérez Martínez</apellidos>
+            <direccion>
+                <via tipo="Avenida">Del Príncipe</via>
+                <numero>15</numero>
+                <piso>3</piso>
+                <letra>C</letra>
+                <ciudad>Gandía</ciudad>
+                <provincia>Valencia</provincia>
+            </direccion>
+            <telefono>698321406</telefono>
+        </vendedor>
+    </coche>
+</concesionario>
