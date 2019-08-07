@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carta [
+    <!ELEMENT carta (dasayuno+)>
+    <!ELEMENT desayuno (nombre, precio, descripcion)>
+        <!ATTLIST desayuno calorias CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+        <!ATTLIST precio moneda CDATA "euros">
+    <!ELEMENT descripcion (#PCDATA)>
+]>
 <carta>
     <desayuno calorias="650">
         <nombre>Gofres Belgas</nombre>

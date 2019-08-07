@@ -4,7 +4,7 @@
     <!ELEMENT ciudad (nombre, pais)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT pais (#PCDATA)>
-        <!ATTLIST pais continente CDATA>
+        <!ATTLIST pais continente CDATA #REQUIRED>
 ]>
 <ciudades>
     <ciudad>

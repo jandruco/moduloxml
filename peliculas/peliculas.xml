@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="peliculas.css"?>
+<!DOCTYPE catalogo [
+    <!ELEMENT catalogo (pelicula+)>
+    <!ELEMENT pelicula (titulo, director, reparto, fecha, duracion)>
+        <!ATTLIST pelicula genero CDATA #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT director (#PCDATA)>
+    <!ELEMENT reparto (actor+)>
+        <!ELEMENT actor (#PCDATA)>
+    <!ELEMENT fecha (dia, mes, anno)>
+        <!ELEMENT dia (#PCDATA)>
+        <!ELEMENT mes (#PCDATA)>
+        <!ELEMENT anno (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+]>
 <catalogo>
     <pelicula genero="Acción - Aventuta - Ciencia Ficción">
         <titulo>Capitana Marvel</titulo>

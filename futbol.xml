@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos [
+    <!ELEMENT equipos (equipo+)>
+    <!ELEMENT equipo (nombre, ciudad, entrenador, plantilla)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT entrenador EMPTY>
+    <!ELEMENT plantilla (jugador+)>
+    <!ELEMENT jugador (nombrej, nacionalidad)>
+        <!ATTLIST jugador posicion (Portero|Defensa|Medio|Delantero) #REQUIRED>
+    <!ELEMENT nombrej (#PCDATA)>
+    <!ELEMENT nacionalidad (#PCDATA)>
+]>
 <equipos>
     <equipo>
         <nombre>Real Racing Club</nombre>
@@ -6,11 +18,11 @@
         <entrenador/>
         <plantilla>
             <jugador posicion="Portero">
-                <nombre>Luca Zidane</nombre>
+                <nombrej>Luca Zidane</nombrej>
                 <nacionalidad>Francés</nacionalidad>
             </jugador>
             <jugador posicion="Delantero">
-                <nombre>Karim Yoda</nombre>
+                <nombrej>Karim Yoda</nombrej>
                 <nacionalidad>Francés</nacionalidad>
             </jugador>
         </plantilla>          
@@ -21,11 +33,11 @@
         <entrenador/>
         <plantilla>
             <jugador posicion="Defensa">
-                <nombre>Eder Militao</nombre>
+                <nombrej>Eder Militao</nombrej>
                 <nacionalidad>Brasileño</nacionalidad>
             </jugador>
             <jugador posicion="Delantero">
-                <nombre>Eden Hazard</nombre>
+                <nombrej>Eden Hazard</nombrej>
                 <nacionalidad>Belga</nacionalidad>
             </jugador>
         </plantilla>

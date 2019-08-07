@@ -2,7 +2,7 @@
 <!DOCTYPE hechos_historicos [
     <!ELEMENT hechos_historicos (hecho)*>
     <!ELEMENT hecho (fecha)>
-        <!ATTLIST hecho descripcion CDATA>
+        <!ATTLIST hecho descripcion CDATA #REQUIRED>
     <!ELEMENT fecha (dia, mes, anio)>
     <!ELEMENT dia (#PCDATA)>
     <!ELEMENT mes (#PCDATA)>
