@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE departamentos SYSTEM "departamentos.dtd">
+<departamentos>
+    <departamento>
+        <nomdept>Administracion</nomdept>
+        <responsable>
+            <nombre>Antonio</nombre>
+            <apellidos>García Pérez</apellidos>
+            <email>antonio@gmail.com</email>
+            <extension>3500</extension>
+        </responsable>
+        <personas>
+            <persona>
+                <nombre>Luis</nombre>
+                <apellidos>Sánchez Martínez</apellidos>
+                <email>luis@gmial.com</email>
+                <extension>3502</extension>
+            </persona>
+            <persona>
+                <nombre>Monica</nombre>
+                <apellidos>López Díaz</apellidos>
+                <email>monica@gmail.com</email>
+                <extension>3504</extension>
+            </persona>
+            <persona>
+                <nombre>Lucía</nombre>
+                <apellidos>Pelayo Ortiz</apellidos>
+                <email></email>
+                <extension>3506</extension>
+            </persona>
+        </personas>
+    </departamento>
+    <departamento>
+        <nomdept>RRHH</nomdept>
+        <responsable>
+            <nombre>Lidia</nombre>
+            <apellidos>Sainz Gómez</apellidos>
+            <email>lidia@rrhh.com</email>
+            <extension>1000</extension>
+        </responsable>
+        <personas>
+            <persona>
+                <nombre>Sergio</nombre>
+                <apellidos>Marquez Ortiz</apellidos>
+                <email>sergio@rrhh.com</email>
+                <extension>1001</extension>
+            </persona>
+        </personas>
+    </departamento>
+</departamentos>

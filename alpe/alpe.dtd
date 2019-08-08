@@ -1,7 +1,7 @@
 <!ELEMENT alpeformacion (aula+)>
-<!ELEMENT aula (puesto, aireacondicionado?, certificado*)>
+<!ELEMENT aula (puestos, aireacondicionado?, certificado*)>
     <!ATTLIST aula numero CDATA #REQUIRED>
-    <!ELEMENT puesto (#PCDATA)>
+    <!ELEMENT puestos (#PCDATA)>
     <!ELEMENT aireacondicionado EMPTY>
     <!ELEMENT certificado (nombre, horas)>
         <!ELEMENT nombre (#PCDATA)>

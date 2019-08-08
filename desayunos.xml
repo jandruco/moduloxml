@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE carta [
-    <!ELEMENT carta (dasayuno+)>
+    <!ELEMENT carta (desayuno)+>
     <!ELEMENT desayuno (nombre, precio, descripcion)>
         <!ATTLIST desayuno calorias CDATA #REQUIRED>
     <!ELEMENT nombre (#PCDATA)>

@@ -1,64 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<libreria>
-    
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<librerias>
+<tienda>
+  <libreria>
     <nombre>Libreando</nombre>
-    <direccion>C/Perez Pelayo yodireccion>
+    <direccion>C/Perez Pelayo yo</direccion>
     <correo_electronico>admin@libreando.es</correo_electronico>
     <telefonos>
         <telefono>942123123</telefono>
         <telefono>603123123</telefono>
     </telefonos>
-    
+      </libreria>
     <editoriales>
-        
         <editorial>
-            
             <nombre>Navarrete</nombre>
             <libros>
-                
                 <libro area="finanzas">
                     <titulo>Educación Financiera avanzada partiendo de cero </titulo>
                     <autor>Gregorio Hernández Jiménez</autor>
-                    <num_paginas>200
-                    
+                    <num_paginas>200 
                     </num_paginas>
                     <precio>30.0</precio>
                 </libro>
-        
                 <libro area="autoayuda">
                     <titulo>La Pequeña Voz</titulo>
-                    <autor>Joss Sheldon</autor>                  
+                    <autor>Joss Sheldon</autor>
                     <num_paginas>180</num_paginas>
                     <precio>3.36</precio>
-                </libro>    
-            
+                </libro>
             </libros>
-                        
-        </editorial>    
-        
-        
+        </editorial>
         <editorial>
             <nombre>Austral</nombre>
             <libros>
-                
                 <libro area="romance">
                     <titulo>El fantasma de la Ópera</titulo>
                     <autor>Gaston Leroux</autor>
                     <num_paginas>336</num_paginas>
                     <precio>36.0</precio>
                 </libro>
-        
                 <libro area="drama">
                     <titulo>Largo pétalo de mar</titulo>
                     <autor>Largo pétalo de mar</autor>
                     <num_paginas>456</num_paginas>
                     <precio>20.0</precio>
                 </libro>
-            
             </libros>
-        
         </editorial>
-        
-    </editoriales>
-        
-        
+      </editoriales>
+   </tienda>
+  </librerias>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hechos_historicos [
     <!ELEMENT hechos_historicos (hecho)*>
     <!ELEMENT hecho (fecha)>
@@ -19,7 +19,7 @@
     <hecho descripcion="Se funda Google">
         <fecha>
             <dia>4</dia>
-            <mes>9</mes>#REQUIRED
+            <mes>9</mes>
             <anio>1998</anio>
         </fecha>
     </hecho>
