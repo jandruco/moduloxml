@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inversiones [
+  <!ELEMENT inversiones (pais+)>
+    <!ELEMENT pais (cap:capital, din:capital)>
+      <!ATTLIST pais xmlns:cap CDATA #FIXED "http://www.alpeformacion.es/espacionombres/capital">
+      <!ATTLIST pais xmlns:din CDATA #FIXED "http://www.alpeformacion.es/espacionombres/dinero">
+      <!ATTLIST pais nombre CDATA #REQUIRED>
+      <!ELEMENT cap:capital (#PCDATA)>
+      <!ELEMENT din:capital (#PCDATA)>
+]>
+<inversiones>
+  <pais nombre="España">
+    <cap:capital>Madrid</cap:capital>
+    <din:capital>20000 €</din:capital>
+  </pais>
+  <pais nombre="Francia">
+    <cap:capital>Paris</cap:capital>
+    <din:capital>10000 €</din:capital>
+  </pais>
+</inversiones>

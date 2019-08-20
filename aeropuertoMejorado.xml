@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aena [
+  <!ELEMENT aena (aer:aeropuerto, ope:operadores)>
+    <!ELEMENT aer:aeropuerto (aer:nombre, aer:vuelos, aer:fecha)>
+      <!ATTLIST aer:aeropuerto xmlns:aer CDATA #FIXED "http://www.alpeformacion.es/espacionombres/aeropuerto">
+      <!ELEMENT aer:nombre (#PCDATA)>
+      <!ELEMENT aer:vuelos (aer:vuelo+)>
+        <!ELEMENT aer:vuelo (aer:diario?, aer:origen, aer:destino, aer:horasalida, aer:horallegada)>
+          <!ATTLIST aer:vuelo aer:codigo ID #REQUIRED>
+          <!ATTLIST aer:vuelo aer:estado (C | E | R) "E">
+          <!ATTLIST aer:vuelo aer:operador IDREF #REQUIRED>
+          <!ELEMENT aer:diario EMPTY>
+          <!ELEMENT aer:origen (#PCDATA)>
+          <!ELEMENT aer:destino (#PCDATA)>
+          <!ELEMENT aer:horasalida (#PCDATA)>
+          <!ELEMENT aer:horallegada (#PCDATA)>
+      <!ELEMENT aer:fecha (aer:dia, aer:mes, aer:anio)>
+        <!ELEMENT aer:dia (#PCDATA)>
+        <!ELEMENT aer:mes (#PCDATA)>
+        <!ELEMENT aer:anio (#PCDATA)>
+    <!ELEMENT ope:operadores (ope:operador+)>
+      <!ATTLIST ope:operadores xmlns:ope CDATA #FIXED "http://www.alpeformacion.es/espacionombres/operadores">
+      <!ELEMENT ope:operador (ope:nombre, ope:origenes, ope:destinos)>
+        <!ATTLIST ope:operador ope:codigo ID #REQUIRED>
+        <!ELEMENT ope:nombre (#PCDATA)>
+        <!ELEMENT ope:origenes (ope:origen+)>
+        <!ELEMENT ope:origen (#PCDATA)>
+        <!ELEMENT ope:destinos (ope:destino+)>
+        <!ELEMENT ope:destino (#PCDATA)>
+]>
+<aena>
+  <aer:aeropuerto>
+    <aer:nombre>Aeropuerto JFK</aer:nombre>
+    <aer:vuelos>
+      <aer:vuelo aer:codigo="V22" aer:estado="R" aer:operador="RYR">
+        <aer:diario/>
+        <aer:origen>New York</aer:origen>
+        <aer:destino>Chicago</aer:destino>
+        <aer:horasalida>9:30</aer:horasalida>
+        <aer:horallegada>11:30</aer:horallegada>
+      </aer:vuelo>
+      <aer:vuelo aer:codigo="V23" aer:estado="C" aer:operador="IBE">
+        <aer:origen>New York</aer:origen>
+        <aer:destino>Miami</aer:destino>
+        <aer:horasalida>10:15</aer:horasalida>
+        <aer:horallegada>11:15</aer:horallegada>
+      </aer:vuelo>
+    </aer:vuelos>
+    <aer:fecha>
+      <aer:dia>20</aer:dia>
+      <aer:mes>12</aer:mes>
+      <aer:anio>2013</aer:anio>
+    </aer:fecha>
+  </aer:aeropuerto>
+  <ope:operadores>
+    <ope:operador ope:codigo="RYR">
+      <ope:nombre>Ryanair</ope:nombre>
+      <ope:origenes>
+        <ope:origen>Madrid</ope:origen>
+        <ope:origen>Barcelona</ope:origen>
+        <ope:origen>Santander</ope:origen>
+        <ope:origen>Nueva York</ope:origen>
+      </ope:origenes>
+      <ope:destinos>
+        <ope:destino>Colonia</ope:destino>
+        <ope:destino>Chicago</ope:destino>
+        <ope:destino>Madrid</ope:destino>
+        <ope:destino>Paris</ope:destino>
+        <ope:destino>Santander</ope:destino>
+      </ope:destinos>
+    </ope:operador>
+    <ope:operador ope:codigo="IBE">
+      <ope:nombre>Iberia</ope:nombre>
+      <ope:origenes>
+        <ope:origen>Madrid</ope:origen>
+        <ope:origen>Santander</ope:origen>
+        <ope:origen>Roma</ope:origen>
+        <ope:origen>Milán</ope:origen>
+        <ope:origen>Nueva York</ope:origen>
+      </ope:origenes>
+      <ope:destinos>
+        <ope:destino>Madrid</ope:destino>
+        <ope:destino>Bruselas</ope:destino>
+        <ope:destino>Lisboa</ope:destino>
+        <ope:destino>Miami</ope:destino>
+      </ope:destinos>
+    </ope:operador>
+  </ope:operadores>
+</aena>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coches SYSTEM "coches.dtd">
+<coches>
+    <coche numbastidor="FGE738924D">
+        <carroceria>
+            <color tipo="metalizado">Azul</color>
+            <numpuertas>5</numpuertas>
+            <cabrio/>
+        </carroceria>
+        <motor>
+            <cilindrada>1333 cc</cilindrada>
+            <cv>150 CV</cv>
+            <cgasolina>6,8 l/100 Km</cgasolina>
+        </motor>
+        <especificaciones>
+            <marca>Renault</marca>
+            <modelo>Captur</modelo>
+            <estado id="usado"/>
+        </especificaciones>
+    </coche>
+    <coche numbastidor="LIJH62348J">
+        <carroceria>
+            <color tipo="basico">Rojo</color>
+            <numpuertas>3</numpuertas>
+        </carroceria>
+        <motor>
+            <cilindrada>1200 cc</cilindrada>
+            <cv>120 CV</cv>
+            <cdiesel>7,5 l/100 Km</cdiesel>
+        </motor>
+        <especificaciones>
+            <marca>Seat</marca>
+            <modelo>León</modelo>
+            <estado id="km0"/>
+        </especificaciones>
+    </coche>
+    <coche numbastidor="HYU89642SD">
+        <carroceria>
+            <color tipo="basico">Negro</color>
+            <numpuertas>5</numpuertas>
+            <cabrio/>
+        </carroceria>
+        <motor>
+            <cilindrada>2000 cc</cilindrada>
+            <cv>170 CV</cv>
+            <celectrico>15 kWh</celectrico>
+        </motor>
+        <especificaciones>
+            <marca>Audi</marca>
+            <modelo>TT</modelo>
+            <estado id="nuevo"/>
+        </especificaciones>
+    </coche>
+</coches>

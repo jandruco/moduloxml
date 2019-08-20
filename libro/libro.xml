@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libros SYSTEM "libro.dtd">
+<Libros>
+  <Libro id="1">
+      <Titulo>Primaria paso a paso</Titulo>
+      <Contenido>
+          <Capitulo materia="Lengua">
+              <Tema>Sintaxis</Tema>
+              <Seccion apartados="2" dificil="Nivel 1">Sujeto</Seccion>
+              <Seccion apartados="3" dificil="Nivel 3">Predicado</Seccion>
+          </Capitulo>
+          <Capitulo materia="Matemáticas">
+              <Tema>Ecuaciones</Tema>
+              <Seccion apartados="5" dificil="Nivel 5">Segundo Grado</Seccion>
+          </Capitulo>
+          <Separacion/>
+      </Contenido>
+      <Copyright>2017 Anaya</Copyright>
+  </Libro>
+  <Libro id="2">
+      <Titulo>Primaria paso a paso</Titulo>
+      <Contenido>
+          <Capitulo materia="Java">
+              <Tema>Aprende Java</Tema>
+              <Seccion apartados="3" dificil="Nivel 1">Tipos de Datos</Seccion>
+              <Seccion apartados="2" dificil="Nivel 2">Clases</Seccion>
+              <Seccion apartados="4" dificil="Nivel 3">Objetos</Seccion>
+          </Capitulo>
+          <Separacion/>
+      </Contenido>
+      <Copyright>2010 TECNUN</Copyright>
+  </Libro>
+</Libros>
