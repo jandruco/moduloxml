@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="personas.xsd">
+  <persona nacimiento="1999-10-20">
+    <datos>
+      <nombre>Pepe</nombre>
+      <apellidos>García</apellidos>
+      <dni>25390952</dni>
+    </datos>
+    <comentario>buena gente...</comentario>
+  </persona>
+</personas>

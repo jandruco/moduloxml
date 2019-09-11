@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="faq">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="autor" type="xs:string"/>
+              <xs:element name="email" type="xs:string" minOccurs="0"/>
+              <xs:element name="version" type="numeros" minOccurs="0"/>
+              <xs:element name="fecha" type="xs:date" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="part" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="q" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="qtext" type="xs:string"/>
+                    <xs:element name="a" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="numeros">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]*.[0-9]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

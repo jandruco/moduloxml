@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marcadores>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="marcadores.xsd">
     <pagina>
         <nombre>Real Racing Club</nombre>
         <descripcion>Página del Glorioso</descripcion>
